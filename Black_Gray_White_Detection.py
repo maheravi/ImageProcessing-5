@@ -17,10 +17,6 @@ while True:
 
     frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    white_mask = cv2.inRange(frame_gray, 190, 255)
-    gray_mask = cv2.inRange(frame_gray, 80, 189)
-    black_mask = cv2.inRange(frame_gray, 0, 79)
-
     x = 100
     y = 100
     w = 100
